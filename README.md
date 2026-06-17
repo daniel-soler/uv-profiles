@@ -1,6 +1,6 @@
 # uvp
 
-`uvp` is a small Go CLI for managing [uv](https://docs.astral.sh/uv/) configuration profiles, inspired by the AWS profile switcher [`asp`](https://github.com/Skyscanner/asp).
+`uvp` is a small Go CLI for managing [uv](https://docs.astral.sh/uv/) configuration profiles, inspired by the AWS profile switcher [`asp`](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/aws/aws.plugin.zsh).
 
 Each profile is stored as its own file under `~/.config/uv/uv.d/`, and the active config at `~/.config/uv/uv.toml` is a symlink to the selected profile.
 
@@ -18,7 +18,7 @@ Switch between them with one command instead of editing `uv.toml` by hand.
 ### From source
 
 ```bash
-git clone https://github.com/daniel/uv-profiles.git
+git clone https://github.com/daniel-soler/uv-profiles.git
 cd uv-profiles
 go install ./cmd/uvp
 ```
