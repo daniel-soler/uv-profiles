@@ -1,0 +1,5 @@
+/uvp
+*.exe
+*.test
+*.out
+/coverage.out
